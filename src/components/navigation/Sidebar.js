@@ -9,7 +9,7 @@ class Sidebar extends Component {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home mb-2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                <span className="fas fa-home fs-4 me-1"></span>
                                 Dashboard
                             </Link>
                         </li>
@@ -19,7 +19,7 @@ class Sidebar extends Component {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/post">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home mb-2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            <span className="fas fa-paste fs-4 me-1"></span>
                                 Posts
                             </Link>
                         </li>
@@ -29,7 +29,7 @@ class Sidebar extends Component {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/comment">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home mb-2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            <span className="fas fa-comment fs-4 me-1"></span>
                                 Comments
                             </Link>
                         </li>
@@ -39,7 +39,7 @@ class Sidebar extends Component {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/album">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home mb-2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            <span className="fas fa-images fs-4 me-1"></span>
                                 Albums
                             </Link>
                         </li>
@@ -49,7 +49,7 @@ class Sidebar extends Component {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/post">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home mb-2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            <span className="fas fa-camera fs-4 me-1"></span>
                                 Photos
                             </Link>
                         </li>
@@ -59,7 +59,7 @@ class Sidebar extends Component {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/todo">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home mb-2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            <span className="fas fa-check fs-4 me-1"></span>
                                 Todos
                             </Link>
                         </li>
@@ -69,7 +69,7 @@ class Sidebar extends Component {
                     <ul className="nav flex-column mb-2">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/user">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home mb-2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            <span className="fas fa-users fs-4 me-1"></span>
                                 Users
                             </Link>
                         </li>

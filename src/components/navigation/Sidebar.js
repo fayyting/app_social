@@ -48,7 +48,7 @@ class Sidebar extends Component {
                 <div className="position-sticky pt-3">
                     <ul className="nav flex-column">
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" to="/post">
+                            <Link className="nav-link" aria-current="page" to="/photo">
                             <span className="fas fa-camera fs-4 me-1"></span>
                                 Photos
                             </Link>

@@ -7,8 +7,14 @@ const Layout = () => {
     return (
         <>
             <Navbar />
-            <Sidebar/>
-            <Outlet />
+            <div className="container-fluid">
+                <div className="row">
+                    <Sidebar />
+                    <main className="col-md-9 ms-sm-auto col-lg-10 p-md-4">
+                        <Outlet />
+                    </main>
+                </div>
+            </div>
         </>
     )
 };

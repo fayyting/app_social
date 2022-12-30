@@ -6,8 +6,8 @@ class Photo extends Component{
         let columns = [
             {
                 name: "Image",
-                selector: row => <a href={row.url} target="_blank">
-                    <img src={row.thumbnailUrl}/>
+                selector: row => <a href={row.url} target="_blank" rel="noreferrer">
+                    <img src={row.thumbnailUrl} alt={row.title}/>
                 </a>,
             },
             {
@@ -29,7 +29,7 @@ class Photo extends Component{
         let apiUrl = process.env.REACT_APP_API_URL + "/photos";
         return(
             <div>
-                <Table title={"Photos"} columns={columns} apiUrl={apiUrl} />
+                <Table title={"Photos"} columns={columns} apiUrl={apiUrl} searchColumn="title" searchPlaceholder="Filter by Title" />
             </div>
         )
     }

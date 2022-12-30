@@ -28,7 +28,7 @@ class User extends Component{
         let apiUrl = process.env.REACT_APP_API_URL + "/users";
         return(
             <div>
-                <Table title={"Users"} columns={columns} apiUrl={apiUrl} />
+                <Table title={"Users"} columns={columns} apiUrl={apiUrl} searchColumn="name" searchPlaceholder="Filter by Name"/>
             </div>
         )
     }

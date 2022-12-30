@@ -28,7 +28,7 @@ class Todo extends Component{
         let apiUrl = process.env.REACT_APP_API_URL + "/todos";
         return(
             <div>
-                <Table title={"Todos"} columns={columns} apiUrl={apiUrl} />
+                <Table title={"Todos"} columns={columns} apiUrl={apiUrl} searchColumn="title" searchPlaceholder="Filter by Title"/>
             </div>
         )
     }

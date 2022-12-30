@@ -23,7 +23,7 @@ class Album extends Component{
         let apiUrl = process.env.REACT_APP_API_URL + "/albums";
         return(
             <div>
-                <Table title={"Albums"} columns={columns} apiUrl={apiUrl} />
+                <Table title={"Albums"} columns={columns} apiUrl={apiUrl} searchColumn="title" searchPlaceholder="Filter by Title"/>
             </div>
         )
     }

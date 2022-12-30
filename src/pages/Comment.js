@@ -33,7 +33,7 @@ class Comment extends Component{
         let apiUrl = process.env.REACT_APP_API_URL + "/comments";
         return(
             <div>
-                <Table title={"Comments"} columns={columns} apiUrl={apiUrl} />
+                <Table title={"Comments"} columns={columns} apiUrl={apiUrl} searchColumn="name" searchPlaceholder="Filter by Name" />
             </div>
         )
     }

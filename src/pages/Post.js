@@ -28,7 +28,7 @@ class Post extends Component{
         let apiUrl = process.env.REACT_APP_API_URL + "/posts";
         return(
             <div>
-                <Table title={"Posts"} columns={columns} apiUrl={apiUrl} />
+                <Table title={"Posts"} columns={columns} apiUrl={apiUrl} searchColumn="title" searchPlaceholder="Filter by Title"  />
             </div>
         )
     }

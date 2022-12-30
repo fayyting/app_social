@@ -32,7 +32,7 @@ Bu dosyanın içine aşağıdaki satırları ekleyin.
 
 >RewriteEngine On   
 >RewriteCond %{REQUEST_FILENAME} !-f  
->RewriteRule ^.*$ index.js [L,QSA]  
+>RewriteRule ^.*$ index.html [L,QSA]  
 
 ## Yapılandırma değerleri
 
